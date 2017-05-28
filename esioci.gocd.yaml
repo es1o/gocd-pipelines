@@ -1,0 +1,11 @@
+esioci_pipeline:
+    materials:
+        mygit:
+            git: https://github.com/esioci/esioci.git
+    stages:
+        - build:
+            jobs:
+                build:
+                    tasks:
+                        - exec:
+                            command: ls -lahrt
