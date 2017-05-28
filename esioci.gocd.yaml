@@ -10,4 +10,4 @@ pipelines:
                     build:
                         tasks:
                             - exec:
-                                command: ls -lahrt
+                                command: /bin/ls -lahrt
